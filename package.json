@@ -7,9 +7,10 @@
     "mup": "./index.js"
   },
   "scripts": {
-    "prepublish": "nofat make",
+    "prepublish": "npm run snyk-protect && nofat make",
     "test": "nofat test",
-    "lint": "nofat lint"
+    "lint": "nofat lint",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,8 @@
     "silent-npm-registry-client": "2.x.x",
     "source-map-support": "0.4.0",
     "underscore": "1.x.x",
-    "uuid": "2.x.x"
-  }
+    "uuid": "2.x.x",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
