@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "archiver": "1.x.x",
-    "babel-polyfill": "6.6.1",
+    "babel-polyfill": "6.26.0",
     "bluebird": "3.x.x",
     "commander": "2.9.x",
     "debug": "2.x.x",
