@@ -35,7 +35,7 @@
     "commander": "2.9.x",
     "debug": "2.x.x",
     "nodemiral": "1.x.x",
-    "shelljs": "0.5.x",
+    "shelljs": "0.8.4",
     "silent-npm-registry-client": "2.x.x",
     "source-map-support": "0.4.0",
     "underscore": "1.x.x",
